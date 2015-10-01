@@ -1,16 +1,16 @@
 take me in - easily find what to consume!
 #wat?
-###GET /goods
+###GET /goods/
 all goods that we have
-###GET /goods/<username>
+###GET /goods/<username>/
 what goods has <username>
-###POST /thing
+###POST /thing/
 add something to goods
 ###DELETE /thing/<id>
-###GET /recipes
+###GET /recipes/
 tree of relationships of goods
-###POST /recipes/<id>
+###POST /recipes/
 add a recipe 
-###GET /party
+###GET /party/
 what we can do with all this stuff?
 
