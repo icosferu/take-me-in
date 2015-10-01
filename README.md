@@ -2,8 +2,8 @@ take me in - easily find what to consume!
 #wat?
 ###GET /goods/
 all goods that we have
-###GET /goods/<username>/
-what goods has <username>
+###GET /goods/\<username\>
+what goods has \<username\>
 ###POST /thing/
 add something to goods
 ###DELETE /thing/<id>
