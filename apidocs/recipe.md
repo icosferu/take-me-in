@@ -1,5 +1,5 @@
 ##Recipe format
-a recipe is a relationship between two or more kinds of food.
+a recipe is a taste of some food or combination of two or more kinds of food.
 for example: I like tomatoes. And I like cheese. But tomatoes are much more
 tasty with cheese, aren't?
 three recipes illustrating this:
