@@ -1,4 +1,4 @@
-###GET /goods/
+###GET /v1/goods/
 show all goods that we have
 ####output example
     {
@@ -16,7 +16,7 @@ show all goods that we have
           }
        ]
     }
-###GET /goods/\<username\>/
+###GET /v1/goods/\<username\>/
 show what goods has \<username\>
 ####output example
     {
@@ -32,7 +32,7 @@ show what goods has \<username\>
           }
        ]
     }
-###POST /goods/\<something\>
+###POST /v1/goods/\<something\>
 add something to goods. returns id. requires authorization
 ####input example
     {
@@ -40,5 +40,9 @@ add something to goods. returns id. requires authorization
        "count":5,
        "auth_hash":f2f044efa176ac107db
     }
-###DELETE /goods/\<id\>
+####output example
+    {
+       "id":"3"
+    }
+###DELETE /v1/goods/\<id\>
 delete something by its id
