@@ -1,2 +1,2 @@
 ###GET /party/
-what we can do with all this stuff?
+returns the most suitable recipe using all stuff you have
