@@ -27,7 +27,7 @@ three recipes illustrating this:
     }
 ###GET /v1/recipes/\<id\>
 show recipe by id
-###PUT /v1/recipes/\<recipe\>
+###POST /v1/recipes
 add a recipe. returns id
 ###DELETE /v1/recipes/\<id\>
 delete a recipe by its id
