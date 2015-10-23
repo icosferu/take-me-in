@@ -25,10 +25,12 @@ three recipes illustrating this:
        ]
         "taste":100500
     }
-
+###GET /v1/recipes/\<id\>
+show recipe by id
 ###PUT /v1/recipes/\<recipe\>
 add a recipe. returns id
 ###DELETE /v1/recipes/\<id\>
 delete a recipe by its id
 ###GET /v1/recipes/
 show all recipes
+
