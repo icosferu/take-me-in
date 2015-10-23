@@ -17,7 +17,7 @@ show all goods that we have
        ]
     }
     
-###POST /v1/goods/\<something\>
+###POST /v1/goods
 add something to goods. returns id. requires authorization
 ####input example
     {
